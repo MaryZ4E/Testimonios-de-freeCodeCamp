@@ -1,0 +1,37 @@
+/* Reset de estilos para todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Estilos para el elemento html y body */
+html,
+body {
+  font-size: 18px; /* Tamaño base de fuente para todo el documento */
+  background-color: #f5f6f7; /* Color de fondo */
+}
+/* Estilos para los encabezados de nivel 1 */
+h1 {
+  max-width: 940px; /* Anchura máxima del encabezado */
+  font-size: 2.5em; /* Tamaño de fuente */
+  font-family: Lato, sans-serif; /* Familia de fuente */
+  font-weight: 700; /* Grosor de la fuente (negrita) */
+  line-height: 1.1; /* Altura de línea */
+  margin: 40px 0; /* Márgenes superior e inferior */
+}
+/* Estilos para el contenedor principal de la aplicación */
+.App {
+  min-height: 100vh; /* Altura mínima igual al 100% del viewport height */
+  display: flex; /* Utiliza el modelo de caja flexible */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  justify-content: center; /* Alinea los elementos horizontalmente en el centro */
+  text-align: center; /* Alinea el texto al centro */
+}
+/* Estilos para el contenedor principal */
+.contenedor-principal {
+  min-height: 600px; /* Altura mínima del contenedor principal */
+  display: flex; /* Utiliza el modelo de caja flexible */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  justify-content: center; /* Alinea los elementos horizontalmente en el centro */
+}
